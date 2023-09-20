@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+   
+ /* universal */
+ * {
+        margin: 0px;
+        padding: 0px;
+        /* background-color: aquamarine; */
+      }
+
+      /* Navbar CSS */
+
+      nav {
+        position: fixed;
+        /* display: none; */
+      }
+
+      .main_heading {
+        margin-top: 23px;
+        margin-right: 200px;
+        display: inline-block;
+        color: black;
+      }
+
+      nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 25px;
+
+        padding: 23px;
+      }
+      nav > div {
+        background-color: rgb(237, 106, 13);
+      }
+      .nav_items {
+        position: fixed;
+        /* border: 2px solid black; */
+        width: 100%;
+        color: white;
+        margin-left: 0%;
+        margin-top: 0px;
+      }
+      .nav_items li:hover {
+        cursor: pointer;
+        font-size: 1.04rem;
+      }
+
+      /* main conatiner */
+
+      .container{
+
+        border: 2px solid black;
+        padding: 200px ;
+        /* margin: 23px;  */
+
+      }
+
+      /* inputs in main container */
+      .mb-3{
+        padding: 3px;
+        margin: 23px;
+        margin-top: 23px;
+      }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav_items">
+          <ul>
+            <div class="main_heading">
+              <h2>Merge Your PDF's for FREE</h2>
+            </div>
+            <li>Home</li>
+            <li>Services</li>
+            <li>More</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </nav>
+
+      </div>
+      <div class="container">
+
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+          </div>
+          <div class="mb-3">
+            <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+            <input class="form-control" type="file" id="formFileDisabled" disabled>
+          </div>
+          <div class="mb-3">
+            <label for="formFileSm" class="form-label">Small file input example</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+          </div>
+          <div>
+            <label for="formFileLg" class="form-label">Large file input example</label>
+            <input class="form-control form-control-lg" id="formFileLg" type="file">
+          </div>
+</body>
+</html>
