@@ -89,25 +89,20 @@
       </div>
       <div class="container">
 
+<form action="/merge" method="post" enctype="multipart/form-data" >
         <div class="mb-3">
             <label for="formFile" class="form-label">Default file input example</label>
-            <input class="form-control" type="file" id="formFile">
+            <input class="form-control" name="pdfs" type="file" id="formFile" accept=".pdf" name="pdf1" multiple accept=".pdf">
+            <input class="btn btn-primary my-4" type="submit" value="Submit">
           </div>
-          <div class="mb-3">
-            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-            <input class="form-control" type="file" id="formFileMultiple" multiple>
-          </div>
-          <div class="mb-3">
-            <label for="formFileDisabled" class="form-label">Disabled file input example</label>
-            <input class="form-control" type="file" id="formFileDisabled" disabled>
-          </div>
-          <div class="mb-3">
-            <label for="formFileSm" class="form-label">Small file input example</label>
-            <input class="form-control form-control-sm" id="formFileSm" type="file">
-          </div>
-          <div>
-            <label for="formFileLg" class="form-label">Large file input example</label>
-            <input class="form-control form-control-lg" id="formFileLg" type="file">
-          </div>
+
+
+          <!-- <input type="button" value="Submit"> -->
+        </form>
+
+       
+        
 </body>
+
+
 </html>
